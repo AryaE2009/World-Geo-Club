@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <h2 id="testType">Mock Test</h2>
+    <p>Test content for the selected section.</p>
+    <form id="testForm">
+        <!-- Example questions -->
+        <label>Question 1:</label><br>
+        <input type="text" name="q1"><br>
+        <!-- Add more questions here -->
+        <button type="button" onclick="submitTest()">Submit Test</button>
+    </form>
+    <div id="score" style="display:none;">
+        <h3>Your Score: <span id="scoreValue"></span></h3>
+    </div>
+</body>
+<script>
+    function submitTest() {
+        // Placeholder for test scoring logic
+        let score = Math.floor(Math.random() * 100); // Random score for demonstration
+        document.getElementById('scoreValue').innerText = score;
+        document.getElementById('score').style.display = 'block';
+    }
+</script>
+</html>
