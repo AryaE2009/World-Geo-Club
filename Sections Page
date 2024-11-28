@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Geography Sections</title>
+</head>
+<body>
+    <h2>Human Geography</h2>
+    <ul>
+        <li>
+            <a href="section.html?unit=human-geography&section=cultural-geography">Cultural Geography</a>
+            <button onclick="startMockTest('cultural-geography')">Mock Test</button>
+            <button onclick="startActualTest('cultural-geography')">Actual Test</button>
+        </li>
+        <!-- Repeat for other sections -->
+    </ul>
+</body>
+<script>
+    function startMockTest(section) {
+        window.location.href = 'mock-test.html?section=' + section;
+    }
+
+    function startActualTest(section) {
+        window.location.href = 'actual-test.html?section=' + section;
+    }
+</script>
+</html>
