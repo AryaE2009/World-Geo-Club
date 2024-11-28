@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+</head>
+<body>
+    <h2>Select a Unit</h2>
+    <ul>
+        <li><a href="sections.html?unit=human-geography">Human Geography</a></li>
+        <li><a href="sections.html?unit=physical-geography">Physical Geography</a></li>
+        <li><a href="sections.html?unit=world-geography">World Geography</a></li>
+        <li><a href="sections.html?unit=gis">GIS</a></li>
+        <li><a href="sections.html?unit=cartography">Cartography</a></li>
+    </ul>
+</body>
+</html>
